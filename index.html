@@ -3,9 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Selladora de Bolsas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>hola caca</h1>
+    <div class="titulo">
+        <h1>SELLADORA DE BOLSAS</h1>
+        
+    </div>
+    <div class="texto">
+        <p>Esta es una selladora de bolsas que la idea principal es que sea pequeña, facil de usar, y portatil, es un proyecto para la materia Proyecto y diseño electromecanico</p>
+    </div>
+    <div class="integrantes">
+        <h2>Los integrantes de este proyecto son</h2>
+    </div>
+    
+<div class="gallery">
+    <h3>Felipe Olivares</h3>
+    <a target="_blank" href="https://www.instagram.com/felipe_olivares78/">
+      <img src="https://th.bing.com/th/id/OIP.LRvdzdyPd1ZVRu0-sHyCAQHaHa?pid=ImgDet&rs=1" alt="Miles Morales" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+  
+  <div class="gallery">
+    <h3>Martiniano Bordignon</h3>
+    <a target="_blank" href="img_forest.jpg">
+      <img src="https://th.bing.com/th/id/OIP.LRvdzdyPd1ZVRu0-sHyCAQHaHa?pid=ImgDet&rs=1" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+  
+  <div class="gallery">
+    <h3>Danilo Casco</h3>
+    <a target="_blank" href="img_lights.jpg">
+      <img src="https://th.bing.com/th/id/OIP.LRvdzdyPd1ZVRu0-sHyCAQHaHa?pid=ImgDet&rs=1" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+
+  <div class="gallery">
+    <h3>Ulises Almiron</h3>
+    <a target="_blank" href="img_lights.jpg">
+      <img src="https://th.bing.com/th/id/OIP.LRvdzdyPd1ZVRu0-sHyCAQHaHa?pid=ImgDet&rs=1" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+
+  <div class="gallery">
+    <h3>Facundo Jaime</h3>
+    <a target="_blank" href="img_lights.jpg">
+      <img src="https://th.bing.com/th/id/OIP.LRvdzdyPd1ZVRu0-sHyCAQHaHa?pid=ImgDet&rs=1" alt="Northern Lights" width="500" height="300">
+    </a>
+    <div class="desc"></div>
+  </div>
+  
+  <div class="gallery">
+    <h3>Franco Bedascarrasbure</h3>
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="https://th.bing.com/th/id/OIP.LRvdzdyPd1ZVRu0-sHyCAQHaHa?pid=ImgDet&rs=1" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+
+    
+    <style>
+
+        div.gallery h3{
+            text-align: center;
+            font-family: 'Dosis', sans-serif;
+            
+        }
+
+        
+        div.gallery {
+            margin-left: 10px;
+            border: 3px solid #00A878;
+            float: left;
+            width: 180px;
+            position: relative;
+            top: 100px;
+            background-color: #267a625e;
+            padding: 10px;
+            transition: all .4s ease;
+
+        }
+
+
+        div.gallery:hover {
+            border: 5px solid #00A878;
+            transform: translateY(-20px);
+
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        div.desc {
+            padding: 0px;
+            text-align: center;
+            font-family: 'Dosis', sans-serif;
+        }
+
+        img{
+            image-resolution: 100px;
+            im
+        }
+
+        .integrantes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 30px;
+            font-family: 'Dosis', sans-serif;
+            box-shadow: 5px 5px 10px 1px #b48846;
+            background-color: #f3c278b4;
+            transition: all 0.5s ;
+            text-align: center;
+            width: 400px;
+            left: 35%;
+
+        }
+
+
+        .texto{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 5 ease;
+            font-family: 'Dosis', sans-serif;
+            box-shadow: 5px 5px 10px 1px #b48846;
+            background-color: #f3c278b4;
+            transition: all 0.5s ;
+            text-align: center;
+        }
+
+        .texto p {
+            font-size: 1.3em;
+            
+        }
+
+        .texto:hover{
+            transform: translateY(-10px);
+            box-shadow: 15px 15px 10px 1px #b48846;
+        }
+        .integrantes:hover{
+            transform: translateY(-10px);
+            box-shadow: 15px 15px 10px 1px #b48846;
+        }
+
+        html, body{
+            background-color: #D8F1A0;
+        }
+
+        .titulo{
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 5 ease;
+            
+        }
+
+
+
+        .titulo h1{
+            margin: auto;
+            padding: 10px;
+            font-family: 'Dosis', sans-serif;
+            color: #FE5E41;
+            font-weight: 500;
+            font-size: 3em;
+            transition: all 5 ease;
+        }
+
+
+
+    </style>
 </body>
 </html>
