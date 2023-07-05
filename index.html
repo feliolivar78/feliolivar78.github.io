@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -69,8 +69,109 @@
     <div class="desc"></div>
   </div>
 
+  <div class="ubicacion">
+    <h3>Ubicacion de la empresa</h3>
+    <p>Ayacucho (provincia de Buenos Aires); Elegimos esta ubicación ya que es una zona la cual permite una fácil distribución y obtención de materias primas gracias a su relativa proximidad a ciudades vecinas: estando a 297km de CABA, 146km de Mar del Plata, 91km de Balcarce y 72km de Tandil. 
+      Además, al no ser una ciudad de grandes dimensiones, presenta una facilidad a los trabajadores para llegar al destino de la misma.
+      Otra ventaja seria que, respecto al clima, presenta una ligera amplitud térmica durante las estaciones del año, lo cual garantiza un transporte sin problemas (tanto para los trabajadores como para la distribución/obtención de los materiales) y reduciendo riesgos de perdida de suministro eléctrico (con lo que esto conlleva).</p>
+  </div>
+
+  <div class="maquinas">
+    <h3>Maquinas utilizadas</h3>
+    <p>Lijadora de Banda</p>
+    <p>Sierra Ingletadora</p>
+    <p>Talador Atornillador</p>
+    <p>Maquina para Pintar</p>
+    <p>Compresor Para soplar</p>
+  </div>
+
+  <div class="produccion">
+    <h3>Tipo de produccion</h3>
+    <p>Utilizaremos la producción continua ya que con esta abarataremos costos, principalmente debido a la maquinaria y la capacitación requerida.</p>
+  </div>
+
+  <div class="Procesos">
+    <h3>Procesos</h3>
+    <p>Cortado de madera</p>
+    <p>Lijado</p>
+    <p>Barnizado</p>
+    <p>Conexxionado electrico</p>
+    <p>Ensamblado</p>
+  </div>
+
     
     <style>
+
+      .Procesos{
+        position: absolute;
+        top: 150%;
+        width: 15%;
+        left: 70%;
+        font-family: 'Dosis', sans-serif;
+        font-size: 1.3em;
+        box-shadow: 5px 5px 10px 1px #666666;
+        
+      }
+      .Procesos h3{
+        text-align: center;
+        
+      }
+      .Procesos p{
+        text-align: center;
+      }
+      .produccion{
+        position: absolute;
+        top: 150%;
+        width: 15%;
+        left: 43%;
+        font-family: 'Dosis', sans-serif;
+        font-size: 1.3em;
+        box-shadow: 5px 5px 10px 1px #666666;
+        
+      }
+      .produccion h3{
+        text-align: center;
+        
+      }
+      .produccion p{
+        text-align: center;
+      }
+      .maquinas{
+        position: absolute;
+        top: 150%;
+        width: 15%;
+        left: 15%;
+        font-family: 'Dosis', sans-serif;
+        font-size: 1.3em;
+        box-shadow: 5px 5px 10px 1px #666666;
+        
+      }
+      .maquinas h3{
+        text-align: center;
+        
+      }
+      .maquinas p{
+        text-align: center;
+      }
+
+      .ubicacion {
+        position: absolute;
+        top: 700px;
+        width: 90%;
+        left: 5%;
+        font-family: 'Dosis', sans-serif;
+        font-size: 1.3em;
+        box-shadow: 5px 5px 10px 1px #666666;
+        
+      }
+      .ubicacion h3{
+        position: relative;
+        text-align: center;
+        
+      }
+      .ubicacion p{
+        text-align: center;
+      }
 
         div.gallery h3{
             text-align: center;
@@ -80,22 +181,26 @@
 
         
         div.gallery {
-            margin-left: 10px;
-            border: 3px solid #00A878;
+            margin-left: 6px;
+            border: 3px solid #498070;
             float: left;
-            width: 180px;
+            width: 195px;
             position: relative;
             top: 100px;
-            background-color: #267a625e;
-            padding: 10px;
+            left: 15px;
+            background-color: #26463d5e;
+            padding: 5px;
             transition: all .4s ease;
 
         }
 
 
         div.gallery:hover {
-            border: 5px solid #00A878;
+            border: 5px solid #13be8e;
+            background-color: #2897785e;
             transform: translateY(-20px);
+            border-radius: 5px;
+            font-size: 18px;
 
         }
 
@@ -113,7 +218,7 @@
 
         img{
             image-resolution: 100px;
-            im
+            
         }
 
         .integrantes{
@@ -161,6 +266,8 @@
 
         html, body{
             background-color: #D8F1A0;
+            height: 200%;
+            
         }
 
         .titulo{
